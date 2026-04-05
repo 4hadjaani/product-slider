@@ -220,7 +220,7 @@ button:active{
  .text h1{
     font-size:  2rem;
     word-wrap: break-word;
-    line-height: normal;
+    line-height:  normal;
 }
  .text p{
     font-size: 1rem;  
