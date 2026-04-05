@@ -205,16 +205,27 @@ button:active{
     
 
 @media screen and (max-width: 600px) {
-    .bander .text{
-    bottom: 120px;
-  
-}
+ .bander .text{
+    position: absolute ;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    bottom: 160px;
+    left: 0;
+    z-index: 1;
+     color: rgb(147, 236, 174);
+     text-shadow: 0 0 10px var(--color);
+     text-align: left;
+     }
  .text h1{
-    font-size:  2.5rem;
-  
+    font-size:  2rem;
+    word-wrap: break-word;
+    line-height: normal;
 }
  .text p{
     font-size: 1rem;  
+    word-wrap: break-word;
+    line-height: normal;
  }
     .column{
     display: column;
