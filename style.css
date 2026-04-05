@@ -204,7 +204,7 @@ button:active{
 }
     
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
  .bander .text{
     position: absolute ;
     display: flex;
