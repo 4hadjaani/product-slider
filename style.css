@@ -210,7 +210,7 @@ button:active{
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    bottom: 250px;
+    bottom: 300px;
     left: 0;
     z-index: 1;
      color: rgb(147, 236, 174);
@@ -231,7 +231,7 @@ button:active{
      position: absolute;
      z-index: 10;
     left: 40px;
-    bottom: 150px;
+    bottom: 250px;
     display: flex;
     flex-direction: row;
     align-items: center;
