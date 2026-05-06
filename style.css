@@ -210,7 +210,7 @@ button:active{
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
-    bottom: 99px;
+    bottom: 250px;
     left: 0;
     z-index: 1;
      color: rgb(147, 236, 174);
@@ -218,15 +218,27 @@ button:active{
      text-align: left;
      }
  .text h1{
-    font-size:  2rem;
+    font-size:  4rem;
     word-wrap: break-word;
     line-height:  normal;
 }
  .text p{
-    font-size: 0.9rem;  
+    font-size: 1.5rem;  
     word-wrap: break-word;
     line-height: normal;
  }
+  .bander .change{
+     position: absolute;
+     z-index: 10;
+    left: 40px;
+    bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    transform: scale(1.5);
+
+}
     .column{
     display: column;
     column-count: 1;
@@ -235,11 +247,11 @@ button:active{
 }
 
 .rotation .item{
-    width: 100px;
-    height: 150px;
+    width: 175px;
+    height: 200px;
   ;
     transform:  rotateY( calc((var(--position) - 1) * (360 / var(--quantity) * 1deg) ))
-     translateZ(250px)  ;
+     translateZ(400px)  ;
 }
 .rotation{
     width: 200px;
